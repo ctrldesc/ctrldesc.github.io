@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ctrldesc — Blockchain Security Researcher</title>
+  <meta name="description" content="Ctrldesc — blockchain security researcher and senior penetration tester specializing in smart-contract auditing, DeFi protocol security, and exploit development." />
+  <meta property="og:title" content="Ctrldesc — Blockchain Security Researcher" />
+  <meta property="og:description" content="Blockchain security researcher and senior penetration tester focusing on smart-contract auditing, DeFi protocol security, and advanced exploit development." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --accent:#8be9fd;
+      --text:#e6eef6;
+      --glass: rgba(255,255,255,0.03);
+      --radius:12px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f8fb;
+        --card:#ffffff;
+        --muted:#55606b;
+        --accent:#0b84ff;
+        --text:#07122b;
+        --glass: rgba(0,0,0,0.03);
+      }
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#061226 60%);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:40px;
+    }
+    .container{
+      width:100%;
+      max-width:920px;
+      background:linear-gradient(180deg,var(--card), rgba(255,255,255,0.02));
+      border-radius:var(--radius);
+      box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+      padding:28px;
+      display:grid;
+      grid-template-columns: 160px 1fr;
+      gap:24px;
+      align-items:start;
+      backdrop-filter: blur(6px);
+    }
+    .avatar{
+      width:140px;
+      height:140px;
+      border-radius:14px;
+      overflow:hidden;
+      background:linear-gradient(135deg,var(--accent),#6ff7c5);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow: 0 6px 18px rgba(8,12,20,0.6);
+      flex-shrink:0;
+    }
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{
+      margin:0 0 8px 0;
+      font-size:1.5rem;
+      letter-spacing:-0.01em;
+    }
+    .subtitle{
+      margin:0 0 16px 0;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+    .bio{
+      line-height:1.6;
+      color:var(--text);
+      margin-bottom:18px;
+    }
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+    .tag{
+      background:var(--glass);
+      padding:8px 10px;
+      border-radius:999px;
+      font-size:0.85rem;
+      color:var(--muted);
+      border:1px solid rgba(255,255,255,0.02);
+    }
+    .section-title{
+      margin:18px 0 8px 0;
+      font-weight:600;
+      font-size:0.95rem;
+    }
+    .contact a{
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    .footer{
+      margin-top:18px;
+      color:var(--muted);
+      font-size:0.85rem;
+    }
+    .socials{display:flex;gap:12px;margin-top:8px}
+    .socials a{color:var(--muted);text-decoration:none;font-weight:600}
+    @media (max-width:720px){
+      .container{grid-template-columns:1fr; padding:20px;}
+      .avatar{margin:0 auto}
+    }
+  </style>
+</head>
+<body>
+  <main class="container" role="main" aria-labelledby="name">
+    <div>
+      <div class="avatar" aria-hidden="true">
+        <!-- Replace /assets/avatar.jpg with your image path -->
+        <img src="/assets/avatar.jpg" alt="Ctrldesc profile image" onerror="this.style.objectFit='cover';this.src='https://cdn.jsdelivr.net/gh/identicons/identicon@main/identicon.svg'">
+      </div>
+    </div>
+
+    <div>
+      <h1 id="name">Ctrldesc</h1>
+      <p class="subtitle">Blockchain Security Researcher · Senior Penetration Tester · Smart-Contract Auditor</p>
+
+      <div class="bio">
+        Ctrldesc is a blockchain security researcher and senior penetration tester with deep expertise in smart-contract auditing, DeFi protocol security, and advanced exploit development. With a strong offensive-security mindset, Ctrldesc identifies critical vulnerabilities across EVM-based systems, bridges, governance mechanisms, and complex financial primitives before they can be weaponized.
+        <br><br>
+        Known for precision testing, adversarial simulations, and real-world attack modeling, Ctrldesc focuses on uncovering logic flaws, economic exploits, and protocol-level weaknesses that evade automated tooling. Passionate about strengthening decentralized systems through rigorous security research, responsible disclosure, and continuous threat analysis.
+      </div>
+
+      <div class="tags" aria-hidden="false">
+        <span class="tag">Smart-contract audit</span>
+        <span class="tag">DeFi security</span>
+        <span class="tag">Exploit development</span>
+        <span class="tag">Bridge security</span>
+        <span class="tag">Governance</span>
+        <span class="tag">Adversarial testing</span>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Services & Focus</div>
+        <ul style="margin:8px 0 0 20px;color:var(--muted)">
+          <li>Full smart-contract audits and security reviews</li>
+          <li>Protocol logic & economic exploit analysis</li>
+          <li>Red-team simulations and adversarial modeling</li>
+          <li>Bridge & cross-chain security assessments</li>
+          <li>Responsible disclosure & remediation guidance</li>
+        </ul>
+      </div>
+
+      <div class="section" style="margin-top:12px">
+        <div class="section-title">Contact</div>
+        <div class="contact">
+          <p style="margin:6px 0;color:var(--muted)">
+            For inquiries, responsible disclosure, or collaboration:
+            <br>
+            <a href="mailto:hello@ctrldesc.io">hello@ctrldesc.io</a> · <a href="https://twitter.com/ctrldesc" target="_blank" rel="noopener">Twitter</a>
+          </p>
+          <div class="socials" aria-hidden="false">
+            <a href="https://github.com/ctrldesc" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://twitter.com/ctrldesc" target="_blank" rel="noopener">Twitter</a>
+            <a href="https://www.linkedin.com/in/ctrldesc" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        Built with security-first thinking. Content is for professional and responsible use.
+      </div>
+    </div>
+  </main>
+</body>
+</html>
